@@ -1,0 +1,65 @@
+html {
+    font-size: 10px;
+    background-color: skyblue;
+    font-family: 'Patrick Hand', cursive;
+}
+
+/*
+@media screen and (max-width: 700px) {
+    html {
+        font-size: 8px;
+    }
+}
+*/
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 6rem;
+    color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Noticia Text', serif;
+}
+
+h1 img {
+    width: 200px;
+}
+
+@media screen and (max-width: 700px) {
+    h1 img {
+        display: none;
+    }
+}
+
+h2 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-family: 'Noticia Text', serif;
+}
+
+p, address {
+    font-size: 2rem;
+    font-style: normal;
+    margin: 1rem;
+}
+
+p#rsvp {
+    font-size: 2.2rem;
+    font-style: italic;
+}
+
+#donation-links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+#donation-links img {
+    height: 67px;
+    margin: 2rem;
+}
